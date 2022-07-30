@@ -1,0 +1,16 @@
+.main {
+    background: url("img/background-hearts.png") repeat;
+    min-height: 1000px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+body {
+    margin: 0;
+}
