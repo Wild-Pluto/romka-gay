@@ -1,16 +1,35 @@
-.main {
-    background: url("img/background-hearts.png") repeat;
-    min-height: 1000px;
-}
-
 .content {
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
+    justify-content: center;
+}
+.main {
+    height: 100%;
+    margin: 0 20%;
+}
+
+@font-face {
+    font-family: fibre;
+    src: url(font/fibre.woff);
+    src: url(font/fibre.otf);
+}
+
+.text {
+    font-family: fibre, serif;
+    text-align: center;
+    color: #70e2bc;
+    font-size: 2rem;
+}
+.section {
+    margin: 1rem;
 }
 
 body {
     margin: 0;
+    background-image: linear-gradient(#ab31d1a8, #ab31d1a8) , url(img/background-hearts.png);
+    min-height: 0.5vh;
+    font-family: monospace;
 }
